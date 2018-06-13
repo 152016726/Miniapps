@@ -1,0 +1,19 @@
+/**index.wxss**/
+
+.list_wrapper {
+  width: 80%;
+  color: #fff;
+  font-size: 14px;
+}
+
+.list_wrapper view {
+  margin-bottom: 16px;
+  background: #1aad19;
+  line-height: 40px;
+  text-indent: 2em;
+  border-radius: 4px;
+}
+
+.tips {
+  padding: 20px;
+}

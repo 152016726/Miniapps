@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="detail type{{type}}">
+  <view wx:for="{{list}}" class="row">
+    第{{item.term}}期
+    <text wx:for="{{item.result}}">{{item}}</text>
+  </view>
+</view>
