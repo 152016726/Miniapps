@@ -1,0 +1,4 @@
+<template name="msgItem">
+    <view>竞彩足球</view>
+    <view>竞彩篮球</view>
+</template>

@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<import src="../../template/sportsTypeSwitch.wxml"/>
+<view class="container">
+  <template is="msgItem" data="{{...item}}" />
+  <image mode="widthFix" src="{{mainImg}}"></image>
+</view>

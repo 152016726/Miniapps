@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/match/index",
     "pages/index/index",
     "pages/detail/index"
   ],
@@ -8,5 +9,30 @@
     "navigationBarBackgroundColor": "#f40",
     "navigationBarTitleText": "开奖信息查询",
     "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor":"#61aef9",
+    "backgroundColor":"#fff",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/match/index",
+        "text": "首页",
+        "iconPath":"./images/home.png",
+        "selectedIconPath": "./images/home_a.png"
+      },
+      {
+        "pagePath": "pages/detail/index",
+        "text": "发布",
+        "iconPath": "./images/public.png",
+        "selectedIconPath": "./images/public_a.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "./images/mine.png",
+        "selectedIconPath": "./images/mine_a.png"
+      }
+    ]
   }
 }
