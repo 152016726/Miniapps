@@ -2,7 +2,6 @@
 //获取应用实例
 var server = require('../modules/server')
 var app = getApp();
-console.log(app);
 Page({
   data: {
     list: []

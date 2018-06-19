@@ -1,4 +1,8 @@
-<template name="msgItem">
-    <view>竞彩足球</view>
-    <view>竞彩篮球</view>
+<template name="sportsTypeSwitch">
+  <view class="sportsTypeSwitch">
+    <view class="wrapper">
+      <view data-index="0"  bindtap="tapFn" class="{{activeIdx==0?'active':''}}">竞彩足球</view>
+      <view data-index="1"  bindtap="tapFn" class="{{activeIdx==1?'active':''}}">竞彩篮球</view>
+    </view>
+  </view>
 </template>

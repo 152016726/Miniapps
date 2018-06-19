@@ -8,3 +8,29 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.sportsTypeSwitch{
+  background: #61aef9;
+  display: block;
+  width: 100%;
+}
+.sportsTypeSwitch .wrapper{
+  border: 1px solid #fff;
+  width: 45%;
+  display: flex;
+  margin: 10px auto;
+  border-radius: 8px; 
+}
+.sportsTypeSwitch .wrapper view{
+  flex: 1;
+  font-size:14px;
+  text-align: center;
+  padding: 8px;
+  color: #fff;
+}
+.sportsTypeSwitch .wrapper view:nth-child(1){
+  border-right: 1px solid #fff; 
+}
+.sportsTypeSwitch .wrapper view.active{
+  background: #fff;
+  color: #61aef9;
+}
