@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="awardPage">
+ <image class="football" mode="scaleToFill" src="{{footballSrc}}" ></image>
+ <image class="basketball" mode="scaleToFill" src="{{basketballSrc}}"></image>
+</view>

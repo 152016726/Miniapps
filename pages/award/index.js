@@ -5,21 +5,8 @@ var app = getApp();
 Page({
   data: {
     list: [],
-    imgSrc:"../../images/search.png",
-    inputSrc:"../../images/searchInput.png",
-    titleSrc:"../../images/title.png",
-    awardSrc:"../../images/open.png",
-    diySrc:"../../images/diy.png",
-    imgUrls: [
-      '../../images/banner1.png',
-      '../../images/banner2.png',
-      '../../images/banner3.png'
-    ],
-    indicatorDots: true,
-    autoplay: true,
-    interval: 5000,
-    duration: 1000,
-    circular:true
+    footballSrc:"../../images/football.png",
+    basketballSrc:"../../images/backetball.png"
   },
   //事件处理函数
   onReady: function () {
@@ -41,9 +28,9 @@ Page({
       }
     })
   },
-  goAward: function () {
+  bindViewTap: function (e) {
     wx.navigateTo({
-      url: '../award/index'
+      url: '../detail/index?type=' + e.currentTarget.dataset.index
     })
-  }
+  },
 })

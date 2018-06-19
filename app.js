@@ -7,6 +7,6 @@ App({
   var that=this;
   },
   data: {
-    list: []
+    list: [""]
   },
 })

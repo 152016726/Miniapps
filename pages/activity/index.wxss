@@ -1,0 +1,75 @@
+/**index.wxss**/
+.activityPage{
+background:#f0f0f5;
+overflow:hidden;
+}
+image{
+  width:100%;
+  display:block;
+}
+.title{
+  height:35px;
+  line-height:35px;
+  text-indent:16px;
+  color:#888888;
+  font-size:12px;
+}
+.photoList{
+  width:100%;
+  padding:14px;
+  background:#fff;
+  margin-bottom:10px;
+  display:flex;
+}
+.photoList image{
+  float:left;
+  width:58px;
+  height:58px;
+}
+.photoList .more{
+  float:left;
+  width:58px;
+  height:58px;
+}
+.activityIntro,.activityList{
+background:#fff;
+}
+.activityName,.activityIntroduce,.activityTime{
+  margin:0 15px;
+  padding:10px 0;
+  height:20px;
+  line-height:20px;
+  border-bottom:1px solid #e5e5e5;
+  display:flex;
+  font-size:16px;
+  color:#000;
+}
+.icon{
+  height:20px;
+  width:20px;
+  float:left;
+}
+.activityNameTxt{
+   float:left;
+   margin:0 15px 0 10px;
+}
+.activityNameInput{
+  float:left;
+  font-size:16px;
+}
+.push{
+  padding:18px 0;
+  margin-right:10px;
+  margin-left:10px;
+
+}
+.pushBtn{
+  width:100%;
+  text-align:center;
+  line-height:44px;
+  height:44px;
+  background:#61aef9;
+  color:#fff;
+  border-radius:4px;
+  border:1px solid #1e85ea;
+}

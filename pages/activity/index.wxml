@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="activityPage">
+  <view class="title">上传宣传图，建议长宽长高尺寸（宽750px,高250px)</view>
+  <view class="photoList">
+    <image wx:for="{{photolist}}" wx:key="*this" src="{{item}}"></image>
+    <image bindtap="addPicture" src="{{moreSrc}}"></image>
+  </view>
+  <view class="activityIntro">
+    <view class="activityName"><image class="icon" src="{{activityNameSrc}}"></image><view class="activityNameTxt">活动名称</view><input class="activityNameInput" placeholder="不超过十个字"></input></view>
+    <view class="activityIntroduce"><image class="icon" src="{{activityIntroSrc}}"></image><view class="activityNameTxt">活动名称</view><input class="activityNameInput" placeholder="不超过50个字"></input></view>
+    <view class="activityTime"><image class="icon" src="{{activityNameSrc}}"></image><view class="activityNameTxt">活动名称</view><input class="activityNameInput" placeholder="20180616-20180715"></input></view>
+  </view>
+  <view class="title">线上线下活动，侠士在竞选活动列表中</view>
+  <view class="activityList">
+      <view class="activityName"><image class="icon" src="{{typeSrc}}"></image><view class="activityNameTxt">活动类型</view><input class="activityNameInput" placeholder="线上活动"></input></view>
+      <view class="activityIntroduce"><image class="icon" src="{{citySrc}}"></image><view class="activityNameTxt">活动城市</view><input class="activityNameInput" placeholder="广州"></input></view>
+      <view class="activityTime"><image class="icon" src="{{citySrc}}"></image><view class="activityNameTxt">活动地点</view><input class="activityNameInput" placeholder=""></input></view>
+      <view class="activityTime"><image class="icon" src="{{personSrc}}"></image><view class="activityNameTxt">活动人数</view><input class="activityNameInput" placeholder=""></input></view>
+  </view>
+  <view class="push"><view class="pushBtn" bindtap="pushInfo">发布</view> </view>
+</view>

@@ -1,9 +1,19 @@
 <!--index.wxml-->
+<view class="homePage">
+<image class="search" mode="scaleToFill" src="{{imgSrc}}"></image>
+<image class="searchInput" mode="scaleToFill" src="{{inputSrc}}"></image>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="100%" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
 <view class="container">
-<view class="tips">福彩最新开奖结果(数据来源于http://www.ahfc.gov.cn/)查询,请选择查询的类型：</view>
-<view class="list_wrapper">
-<view wx:for="{{list}}" wx:key="{{index}}" class="list" bindtap="bindViewTap" data-index="{{item.type}}" >
-  {{item.name}}信息查询
-</view>
+ <image class="titleInput" mode="scaleToFill" src="{{titleSrc}}" ></image>
+ <image class="awardInput" bindtap="goAward" mode="scaleToFill" src="{{awardSrc}}" ></image>
+ <image class="diyInput" bindtap="tapName" mode="scaleToFill" src="{{diySrc}}"></image>
+ <view class="techProvide">Easylotto提供技术支持</view>
 </view>
 </view>

@@ -1,8 +1,10 @@
 {
   "pages":[
-    "pages/match/index",
     "pages/index/index",
-    "pages/detail/index"
+    "pages/match/index",
+    "pages/detail/index",
+    "pages/award/index",
+    "pages/activity/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -16,7 +18,7 @@
     "borderStyle":"black",
     "list": [
       {
-        "pagePath": "pages/match/index",
+        "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath":"./images/home.png",
         "selectedIconPath": "./images/home_a.png"

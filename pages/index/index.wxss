@@ -1,19 +1,48 @@
 /**index.wxss**/
-
-.list_wrapper {
-  width: 80%;
-  color: #fff;
-  font-size: 14px;
+.homePage{
+background:#f0f0f5;
 }
-
-.list_wrapper view {
-  margin-bottom: 16px;
-  background: #1aad19;
-  line-height: 40px;
-  text-indent: 2em;
-  border-radius: 4px;
+.container{
+padding:0 !important;
 }
-
-.tips {
-  padding: 20px;
+image{
+  width:100%;
+  display:block;
+}
+.search{
+  width:100%;
+  height:42px;
+}
+.searchInput{
+  width:100%;
+  height:60px;
+}
+.slide-image{
+  height:160px;
+}
+.titleInput,.awardInput{
+  margin-bottom:10px;
+}
+.techProvide{
+  height:32px;
+  line-height:40px;
+  text-align:center;
+  font-size:12px;
+  color:#b2b2b2;
+}
+.titleInput{
+width:100%;
+height:100px;
+}
+.titleInput{
+width:100%;
+height:100px;
+}
+.awardInput{
+width:100%;
+height:140px;
+}
+.diyInput{
+width:100%;
+height:144px;
 }
